@@ -41,6 +41,7 @@ eslint-plugin-react-hooks
 ### commit/npm
 ```
 husky
+lint-staged
 ```
 
 

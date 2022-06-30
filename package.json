@@ -6,8 +6,8 @@
     "dev": "vite --open",
     "build": "vite build",
     "preview": "vite preview",
-		"prepare": "husky install",
-		"lint": "echo 'linting……'"
+    "prepare": "husky install",
+    "lint": "echo 'linting……'"
   },
   "dependencies": {
     "eslint": "^8.18.0",
@@ -17,7 +17,11 @@
     "@vitejs/plugin-vue": "^2.3.3",
     "eslint-plugin-vue": "^9.1.1",
     "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
     "vite": "^2.9.9",
     "vue-eslint-parser": "^9.0.3"
+  },
+	"lint-staged": {
+    "src": "pnpm lint"
   }
 }
