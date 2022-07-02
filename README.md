@@ -42,7 +42,9 @@ eslint-plugin-react-hooks
 ```
 husky  //注册git 钩子
 lint-staged  //对暂存区的文件执行命令
-commitlint
+commitlint   //规范提交信息
+@commitlint/config-angular    //提交信息argular规范,可用其他
+standard-version  //版本记录
 ```
 
 
