@@ -7,21 +7,26 @@
     "build": "vite build",
     "preview": "vite preview",
     "prepare": "husky install",
-    "lint": "echo 'linting……'"
+    "lint": "eslint --fix"
   },
   "dependencies": {
     "eslint": "^8.18.0",
     "vue": "^3.2.25"
   },
   "devDependencies": {
+    "@commitlint/config-angular": "^17.0.3",
     "@vitejs/plugin-vue": "^2.3.3",
+    "commitlint": "^17.0.3",
     "eslint-plugin-vue": "^9.1.1",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "vite": "^2.9.9",
     "vue-eslint-parser": "^9.0.3"
   },
-	"lint-staged": {
+  "lint-staged": {
     "src/*.js": "pnpm lint"
-  }
+  },
+	"commitlint":{
+		"extends":["@commitlint/config-angular"]
+	}
 }

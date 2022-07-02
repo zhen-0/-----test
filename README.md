@@ -40,8 +40,9 @@ eslint-plugin-react-hooks
 ## commit规范
 ### commit/npm
 ```
-husky
-lint-staged
+husky  //注册git 钩子
+lint-staged  //对暂存区的文件执行命令
+commitlint
 ```
 
 
