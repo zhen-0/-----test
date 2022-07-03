@@ -51,6 +51,9 @@ standard-version  //版本记录
 stylelint
 stylelint-config-standard   //stylelint规则集
 stylelint-config-recess-order  //stylelint属性排序规则集
+postcss-html  //解析html.类html(.vue)文件
+postcss-scss  //解析scss文件
+postcss-less  //解析less文件
 ```
 
 ## 问题
