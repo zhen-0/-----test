@@ -2,6 +2,7 @@
   "recommendations": [
     "vue.volar",
     "dbaeumer.vscode-eslint",
-    "EditorConfig.EditorConfig"
+    "editorconfig.editorconfig",
+    "stylelint.vscode-stylelint"
   ]
 }
