@@ -53,6 +53,13 @@ stylelint-config-standard   //stylelint规则集
 stylelint-config-recess-order  //stylelint属性排序规则集
 ```
 
+## 问题
+```
+1.eslint添加校验json，package.json会报错
+	添加了校验json,package.json会报错Parsing error: Unexpected token
+
+```
+
 
 
 
